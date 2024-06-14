@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dynamic Memory Allocation</h1>
+    <div id="memory-container"></div>
+    <br>
+    <div class="button-grid">
+        <label for="request-size">Enter Size (KB):</label>
+        <input type="number" id="request-size" min="1" placeholder="Enter Size">
+        <button class="func" onclick="allocateMemory()">Allocate (First Fit)</button>
+        <button class="func" onclick="allocateMemoryBestFit()">Allocate (Best Fit)</button>
+        <button class="func" onclick="allocateMemoryWorstFit()">Allocate (Worst Fit)</button>
+        <button class="func" onclick="deallocateMemory()">Deallocate</button>
+        <button class="reset" onclick="resetMemory()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
