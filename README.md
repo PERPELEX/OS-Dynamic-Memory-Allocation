@@ -1,2 +1,2 @@
 # OS-Dynamic-Memory-Allocation
-OS OEL consisting of dynamic memory allocation with 2 implementations, 1 in python and other in JS. Both contains GUI but python one has section in blocks of memory while JS has all types of fitting techniques not exactly dynamic
+Our Operating System Educational Lab (OS OEL) project includes dynamic memory allocation implemented in both Python and JavaScript. The Python version features a graphical user interface (GUI) with memory sections represented in blocks. The JavaScript version, also equipped with a GUI, incorporates various fitting techniques for memory allocation, although it doesn't precisely implement dynamic allocation.
